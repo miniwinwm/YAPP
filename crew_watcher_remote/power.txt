@@ -1,0 +1,21 @@
+Victim unit sleep mode varies between 13uA and 18uA.
+
+In transmit mode takes 8.4mA.
+Transmit takes 7ms every 4000ms.
+Proportion of time transmitting=7/4000=0.00175.
+Proportion of time not transmitting=1-0.00175=0.99825
+
+Total Amps = (18/1000000)*0.99825 + (8.4/1000)*0.00175
+33uA
+
+Charge storage in CR2450		570 mAh
+Estimated life 1.9 years
+
+Charge storage in CR2032		210 mAh
+Estimated life 0.7 years
+
+Charge storage in AAA alkaline cell	1000 mAh
+Estimated life 3.5 years
+
+
+
